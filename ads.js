@@ -1,6 +1,79 @@
 (function() {
     
-
+const ads = [
+        {
+            title: "Netiqui Tech",
+            image: "https://picsum.photos/id/1/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Optimisez votre smartphone en 5 étapes simples."
+        },
+        {
+            title: "Eco-Hébergement",
+            image: "https://picsum.photos/id/2/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Des serveurs verts pour un web plus durable."
+        },
+        {
+            title: "Sagesse Quotidienne",
+            image: "https://picsum.photos/id/3/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Recevez une pensée positive chaque matin."
+        },
+        {
+            title: "Appli-Zen",
+            image: "https://picsum.photos/id/4/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "La méditation guidée pour les développeurs."
+        },
+        {
+            title: "Formation Code",
+            image: "https://picsum.photos/id/5/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Apprenez le JavaScript avec notre méthode."
+        },
+        {
+            title: "Sécu-Web",
+            image: "https://picsum.photos/id/6/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Vos mots de passe sont-ils en sécurité ?"
+        },
+        {
+            title: "Graphic Design",
+            image: "https://picsum.photos/id/7/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Des logos pros pour vos projets."
+        },
+        {
+            title: "Local Food",
+            image: "https://picsum.photos/id/8/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Soutenez les agriculteurs de votre région."
+        },
+        {
+            title: "Lecture Pro",
+            image: "https://picsum.photos/id/9/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "10 livres pour réussir en 2026."
+        },
+        {
+            title: "Netiqui Cloud",
+            image: "https://picsum.photos/id/10/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Stockez vos fichiers en toute confidentialité."
+        },
+        {
+            title: "Recyclage Pro",
+            image: "https://picsum.photos/id/11/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Donnez une seconde vie à votre matériel."
+        },
+        {
+            title: "Podcast Tech",
+            image: "https://picsum.photos/id/12/300/200",
+            link: "https://netiqui.blogspot.com",
+            description: "Écoutez les dernières nouvelles du numérique."
+        }
+    ];
     let currentAdIndex = 0;
 
     const renderAd = () => {
