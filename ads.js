@@ -7,7 +7,7 @@
             link: "https://netiqui.blogspot.com", 
             description: "Contrat actif jusqu'au 20 février.",
             start: "2026-02-10 08:00", 
-            end: "2026-02-20 23:59" 
+            end: "2026-02-12 21:59" 
         },
         { 
             title: "Promo Flash", 
@@ -129,4 +129,5 @@
         window.addEventListener('load', init);
         setTimeout(init, 1500);
     }
+
 })();
