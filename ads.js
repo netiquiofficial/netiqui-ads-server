@@ -2,22 +2,10 @@
     // 1. Liste de vos publicités (ajoutez-en autant que vous voulez)
     const ads = [
         {
-            title: "Partenaire Netiqui #1",
+            title: "Shekinah Worship Choir",
             image: "https://votre-blog.com/pub1.jpg",
             link: "https://client1.com",
-            description: "Découvrez notre première sélection éthique."
-        },
-        {
-            title: "Partenaire Netiqui #2",
-            image: "https://votre-blog.com/pub2.jpg",
-            link: "https://client2.com",
-            description: "Une application utile pour votre quotidien."
-        },
-        {
-            title: "Annonce Spéciale",
-            image: "https://votre-blog.com/pub3.jpg",
-            link: "https://client3.com",
-            description: "Soutenez les projets locaux avec Netiqui."
+            description: "Obténer l'Application dès maintenant"
         }
     ];
 
