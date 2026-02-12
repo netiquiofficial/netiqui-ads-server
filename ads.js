@@ -1,13 +1,25 @@
 (function() {
-    // 1. Liste de vos publicités (ajoutez-en autant que vous voulez)
-    const ads = [
-        {
-            title: "Shekinah Worship Choir",
-            image: "https://votre-blog.com/pub1.jpg",
-            link: "https://client1.com",
-            description: "Obténer l'Application dès maintenant"
-        }
-    ];
+   const ads = [
+    {
+        title: "Netiqui Tech",
+        image: "https://picsum.photos/id/1/300/200", // Image d'exemple
+        link: "https://votre-blog.com/tech",
+        description: "Optimisez votre smartphone en 5 étapes simples."
+    },
+    {
+        title: "Eco-Hébergement",
+        image: "https://picsum.photos/id/2/300/200",
+        link: "https://votre-blog.com/eco",
+        description: "Des serveurs verts pour un web plus durable."
+    },
+    // ... Ajoute les autres ici en suivant le même modèle
+    {
+        title: "Podcast Tech",
+        image: "https://picsum.photos/id/12/300/200",
+        link: "https://votre-blog.com/podcast",
+        description: "Écoutez les dernières nouvelles du numérique."
+    }
+];
 
     let currentAdIndex = 0;
 
