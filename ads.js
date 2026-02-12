@@ -2,20 +2,20 @@
     // 1. LISTE DES PUBLICITÉS AVEC DATES (Format: YYYY-MM-DD HH:MM)
     const adsData = [
         { 
-            title: "Netiqui Tech", 
-            image: "https://picsum.photos/id/1/300/200", 
-            link: "https://netiqui.blogspot.com", 
-            description: "Contrat actif jusqu'au 20 février.",
-            start: "2026-02-10 08:00", 
-            end: "2026-02-12 21:59" 
+            title: "Netiqui Forge", 
+            image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTyilPrRJ3giiEcQEPsyKyu9XWN_qnI88eCgNlGmxVNx2EpNa5gmUHVUWYAg1zJTRUS5UxL36txvSa2q_D3NcyTljBmbQr5gIerdgpUEIFjc-8ehyphenhyphenmm4VCrrznPfRI_MNl1c1NUnvQIKqG2UjXm3o0vlVy8GHfqWDXOG5JYPeERVsPrQRIwa6qhyjgTHU/s1600/netiquiofficial.png", 
+            link: "https://netiqui.blogspot.com/p/application.html", 
+            description: "Ma boutique d'application",
+            start: "2026-01-01 00:00", 
+            end: "2026-09-06 23:59" 
         },
         { 
-            title: "Promo Flash", 
-            image: "https://picsum.photos/id/5/300/200", 
-            link: "https://netiqui.blogspot.com", 
-            description: "Ceci ne s'affichera que le 15 février.",
-            start: "2026-02-1 00:00", 
-            end: "2026-02-15 23:59" 
+            title: "NETIQUI", 
+            image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTyilPrRJ3giiEcQEPsyKyu9XWN_qnI88eCgNlGmxVNx2EpNa5gmUHVUWYAg1zJTRUS5UxL36txvSa2q_D3NcyTljBmbQr5gIerdgpUEIFjc-8ehyphenhyphenmm4VCrrznPfRI_MNl1c1NUnvQIKqG2UjXm3o0vlVy8GHfqWDXOG5JYPeERVsPrQRIwa6qhyjgTHU/s1600/netiquiofficial.png", 
+            link: "https://www.youtube.com/@netiqui", 
+            description: "Nous suivre sur YouTube pour ne pas manquer des nos nouvelles",
+            start: "2026-01-01 00:00", 
+            end: "2026-03-15 23:59" 
         },
         // Ajoute tes autres clients ici...
     ];
@@ -131,3 +131,4 @@
     }
 
 })();
+
